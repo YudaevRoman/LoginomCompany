@@ -37,13 +37,14 @@ public class ClusterSourceList : IClusterSource<int, string>
 
     public void Move()
     {
-        if (currentIndex == clusters.Count - 1)
+        currentIndex++;
+
+        if (currentIndex >= clusters.Count)
         {
+            currentIndex = clusters.Count;
             CheckEnd = true;
             return;
         }
-
-        currentIndex++;
     }
 
     public void Restart()

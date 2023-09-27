@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\Clope.csproj",
+      "projectUniqueName": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\Clope.csproj",
       "projectName": "Clope",
-      "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\Clope.csproj",
+      "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\Clope.csproj",
       "packagesPath": "C:\\Users\\Leere\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\obj\\",
+      "outputPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leere\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,11 +91,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
-              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj"
+            "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
+              "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj"
             },
-            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
-              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj"
+            "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
+              "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj"
             }
           }
         }

@@ -1,5 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Clope\Clope.csproj" />
+    <ProjectReference Include="..\Cluster\Cluster.csproj" />
+    <ProjectReference Include="..\Transaction\Transaction.csproj" />
+    <ProjectReference Include="..\Source\Source.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>

@@ -7,14 +7,71 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Main/1.0.0": {
+        "dependencies": {
+          "Clope": "1.0.0",
+          "Cluster": "1.0.0",
+          "Source": "1.0.0",
+          "Transaction": "1.0.0"
+        },
         "runtime": {
           "Main.dll": {}
+        }
+      },
+      "Clope/1.0.0": {
+        "dependencies": {
+          "Cluster": "1.0.0",
+          "Source": "1.0.0"
+        },
+        "runtime": {
+          "Clope.dll": {}
+        }
+      },
+      "Cluster/1.0.0": {
+        "dependencies": {
+          "Transaction": "1.0.0"
+        },
+        "runtime": {
+          "Cluster.dll": {}
+        }
+      },
+      "Source/1.0.0": {
+        "dependencies": {
+          "Cluster": "1.0.0",
+          "Transaction": "1.0.0"
+        },
+        "runtime": {
+          "Source.dll": {}
+        }
+      },
+      "Transaction/1.0.0": {
+        "runtime": {
+          "Transaction.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Main/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clope/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cluster/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Source/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Transaction/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

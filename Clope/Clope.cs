@@ -25,6 +25,8 @@ public class Clope<K, V> : IClope<K, V>
         Execution_StepOne(clusters, r);
         Execution_StepTwo(clusters, r);
 
+        clusters.RemoveAll(cluster => cluster.N == 0);
+
         return clusters;
     }
 
@@ -35,8 +37,12 @@ public class Clope<K, V> : IClope<K, V>
 
         ClusterSource.Restart();
         TransactionSource.Restart();
-        while (TransactionSource.Move())
+
+        ClusterSource.Move();
+        TransactionSource.Move();
+        while (!TransactionSource.CheckEnd)
         {
+
             transaction = TransactionSource.GetTransaction();
             profitIndex = Profit(clusters, transaction, r);
             clusters[profitIndex].Add(transaction);
@@ -45,7 +51,9 @@ public class Clope<K, V> : IClope<K, V>
                 clusters.Add(new Cluster<K, V>());
             }
             ClusterSource.SetClusterIndex(profitIndex);
+
             ClusterSource.Move();
+            TransactionSource.Move();
         }
     }
     private void Execution_StepTwo(List<ICluster<K, V>> clusters, double r)
@@ -58,9 +66,13 @@ public class Clope<K, V> : IClope<K, V>
         do
         {
             moved = false;
+
             ClusterSource.Restart();
             TransactionSource.Restart();
-            while (TransactionSource.Move() && ClusterSource.Move())
+
+            ClusterSource.Move();
+            TransactionSource.Move();
+            while (!TransactionSource.CheckEnd && !ClusterSource.CheckEnd)
             {
                 transaction = TransactionSource.GetTransaction();
                 deltaRemoveIndex = ClusterSource.GetClusterIndex();
@@ -76,6 +88,8 @@ public class Clope<K, V> : IClope<K, V>
                     ClusterSource.SetClusterIndex(profitIndex);
                     moved = true;
                 }
+                ClusterSource.Move();
+                TransactionSource.Move();
             }
         } while (moved != false);
     }

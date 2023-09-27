@@ -12,3 +12,13 @@ c:\Users\Leere\Desktop\LoginomCompany\Main\obj\Debug\net7.0\refint\Main.dll
 c:\Users\Leere\Desktop\LoginomCompany\Main\obj\Debug\net7.0\Main.pdb
 c:\Users\Leere\Desktop\LoginomCompany\Main\obj\Debug\net7.0\Main.genruntimeconfig.cache
 c:\Users\Leere\Desktop\LoginomCompany\Main\obj\Debug\net7.0\ref\Main.dll
+c:\Users\Leere\Desktop\LoginomCompany\Main\obj\Debug\net7.0\Main.csproj.AssemblyReference.cache
+c:\Users\Leere\Desktop\LoginomCompany\Main\bin\Debug\net7.0\Clope.dll
+c:\Users\Leere\Desktop\LoginomCompany\Main\bin\Debug\net7.0\Cluster.dll
+c:\Users\Leere\Desktop\LoginomCompany\Main\bin\Debug\net7.0\Source.dll
+c:\Users\Leere\Desktop\LoginomCompany\Main\bin\Debug\net7.0\Transaction.dll
+c:\Users\Leere\Desktop\LoginomCompany\Main\bin\Debug\net7.0\Clope.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Main\bin\Debug\net7.0\Cluster.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Main\bin\Debug\net7.0\Transaction.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Main\bin\Debug\net7.0\Source.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Main\obj\Debug\net7.0\Main.csproj.CopyComplete

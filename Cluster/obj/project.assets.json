@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj",
+      "projectUniqueName": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj",
       "projectName": "Cluster",
-      "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj",
+      "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj",
       "packagesPath": "C:\\Users\\Leere\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\obj\\",
+      "outputPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leere\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
-              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj"
+            "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
+              "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj"
             }
           }
         }

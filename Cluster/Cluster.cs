@@ -31,7 +31,15 @@ public class Cluster<K, V> : ICluster<K, V>
             }
         }
 
-        return (newS * (N + 1) / Math.Pow(newW, r)) - (S * N / Math.Pow(W, r));
+        double newG = (newS * (N + 1) / Math.Pow(newW, r));
+        double G = (S * N / Math.Pow(W, r));
+
+        if (double.IsNaN(G))
+        {
+            G = 0;
+        }
+
+        return newG - G;
     }
     public double DeltaRemove(ITransaction<K, V> t, double r)
     {
@@ -39,13 +47,21 @@ public class Cluster<K, V> : ICluster<K, V>
         double newW = W;
         foreach (IAttribute<K, V> attribute in t.Attributes)
         {
-            if (Occ[attribute] - 1 == 0)
+            if (Occ[attribute] == 1)
             {
                 newW--;
             }
         }
 
-        return (S * N / Math.Pow(W, r)) - (newS * (N + 1) / Math.Pow(newW, r));
+        double G = (S * N / Math.Pow(W, r));
+        double newG = (newS * (N - 1) / Math.Pow(newW, r));
+
+        if (double.IsNaN(newG))
+        {
+            newG = 0;
+        }
+
+        return G - newG;
     }
 
     public void Add(ITransaction<K, V> t)
