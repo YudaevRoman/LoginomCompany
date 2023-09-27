@@ -1,0 +1,11 @@
+c:\Users\Leere\Desktop\LoginomCompany\Source\bin\Debug\net7.0\Source.deps.json
+c:\Users\Leere\Desktop\LoginomCompany\Source\bin\Debug\net7.0\Source.dll
+c:\Users\Leere\Desktop\LoginomCompany\Source\bin\Debug\net7.0\Source.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.AssemblyInfoInputs.cache
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.AssemblyInfo.cs
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.csproj.CoreCompileInputs.cache
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.dll
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\refint\Source.dll
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\ref\Source.dll

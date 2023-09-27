@@ -1,0 +1,11 @@
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\obj\Debug\net7.0\Transaction.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\obj\Debug\net7.0\Transaction.AssemblyInfoInputs.cache
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\obj\Debug\net7.0\Transaction.AssemblyInfo.cs
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\obj\Debug\net7.0\Transaction.csproj.CoreCompileInputs.cache
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\bin\Debug\net7.0\Transaction.deps.json
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\bin\Debug\net7.0\Transaction.dll
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\bin\Debug\net7.0\Transaction.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\obj\Debug\net7.0\Transaction.dll
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\obj\Debug\net7.0\refint\Transaction.dll
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\obj\Debug\net7.0\Transaction.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Transaction\obj\Debug\net7.0\ref\Transaction.dll

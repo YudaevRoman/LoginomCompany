@@ -1,0 +1,11 @@
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\bin\Debug\net7.0\Cluster.deps.json
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\bin\Debug\net7.0\Cluster.dll
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\bin\Debug\net7.0\Cluster.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\obj\Debug\net7.0\Cluster.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\obj\Debug\net7.0\Cluster.AssemblyInfoInputs.cache
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\obj\Debug\net7.0\Cluster.AssemblyInfo.cs
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\obj\Debug\net7.0\Cluster.csproj.CoreCompileInputs.cache
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\obj\Debug\net7.0\Cluster.dll
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\obj\Debug\net7.0\refint\Cluster.dll
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\obj\Debug\net7.0\Cluster.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Cluster\obj\Debug\net7.0\ref\Cluster.dll

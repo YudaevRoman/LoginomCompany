@@ -1,0 +1,11 @@
+c:\Users\Leere\Desktop\LoginomCompany\Clope\bin\Debug\net7.0\Clope.deps.json
+c:\Users\Leere\Desktop\LoginomCompany\Clope\bin\Debug\net7.0\Clope.dll
+c:\Users\Leere\Desktop\LoginomCompany\Clope\bin\Debug\net7.0\Clope.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Clope\obj\Debug\net7.0\Clope.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Leere\Desktop\LoginomCompany\Clope\obj\Debug\net7.0\Clope.AssemblyInfoInputs.cache
+c:\Users\Leere\Desktop\LoginomCompany\Clope\obj\Debug\net7.0\Clope.AssemblyInfo.cs
+c:\Users\Leere\Desktop\LoginomCompany\Clope\obj\Debug\net7.0\Clope.csproj.CoreCompileInputs.cache
+c:\Users\Leere\Desktop\LoginomCompany\Clope\obj\Debug\net7.0\Clope.dll
+c:\Users\Leere\Desktop\LoginomCompany\Clope\obj\Debug\net7.0\refint\Clope.dll
+c:\Users\Leere\Desktop\LoginomCompany\Clope\obj\Debug\net7.0\Clope.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Clope\obj\Debug\net7.0\ref\Clope.dll
