@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {}
+    "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
+    "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj",
+        "projectUniqueName": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj",
         "projectName": "Transaction",
-        "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj",
+        "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj",
         "packagesPath": "C:\\Users\\Leere\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\obj\\",
+        "outputPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leere\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -21,7 +21,11 @@ public class ClusterSourceList : IClusterSource<int, string>
 
     public int GetClusterIndex()
     {
-        return !CheckEnd ? clusters[currentIndex] : default;
+        if (CheckEnd)
+        {
+            throw new Exception("Reading from list end");
+        }
+        return clusters[currentIndex];
     }
 
     public void SetClusterIndex(int clusterIndex)

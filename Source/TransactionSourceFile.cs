@@ -2,6 +2,7 @@
 using Transaction;
 
 using System.IO;
+using System.Reflection.Metadata;
 
 namespace Source;
 
@@ -39,19 +40,20 @@ public class TransactionSourceFile : ITransactionSource<int, string>
 
     public ITransaction<int, string> GetTransaction()
     {
-        ITransaction<int, string> transaction = new Transaction<int, string>();
-        if (!CheckEnd && currentLine != null)
+        if (CheckEnd || (currentLine == null))
         {
-            string[] values = currentLine.Split(Separator);
-            for (int i = 0; i < values.Length; i++)
-            {
-                if (values[i] != NullValue)
-                {
-                    transaction.AttributeAdd(new Attribute<int, string>(i, values[i]));
-                }
-            }
+            throw new Exception("Reading from file end");
         }
 
+        ITransaction<int, string> transaction = new Transaction<int, string>();
+        string[] values = currentLine.Split(Separator);
+        for (int i = 0; i < values.Length; i++)
+        {
+            if (values[i] != NullValue)
+            {
+                transaction.AttributeAdd(new Attribute<int, string>(i, values[i]));
+            }
+        }
         return transaction;
     }
 

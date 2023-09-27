@@ -91,11 +91,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\Main.csproj",
+      "projectUniqueName": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\Main.csproj",
+      "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\Main.csproj",
       "packagesPath": "C:\\Users\\Leere\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\obj\\",
+      "outputPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leere\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,17 +112,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\Clope.csproj": {
-              "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\Clope.csproj"
+            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\Clope.csproj": {
+              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Clope\\Clope.csproj"
             },
-            "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
-              "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj"
+            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
+              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj"
             },
-            "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
-              "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj"
+            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
+              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj"
             },
-            "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
-              "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj"
+            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
+              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj"
             }
           }
         }
