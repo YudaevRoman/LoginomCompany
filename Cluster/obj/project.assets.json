@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Transaction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Transaction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Transaction.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Transaction/1.0.0": {
+      "type": "project",
+      "path": "../Transaction/Transaction.csproj",
+      "msbuildProject": "../Transaction/Transaction.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Transaction >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Leere\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
+              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
