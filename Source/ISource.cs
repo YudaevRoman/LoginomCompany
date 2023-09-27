@@ -2,6 +2,7 @@
 
 public interface ISource
 {
-    bool Move();
+    bool CheckEnd { get; }
+    void Move();
     void Restart();
 }

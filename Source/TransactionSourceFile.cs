@@ -1,6 +1,7 @@
 ﻿using Cluster;
-using System.IO;
 using Transaction;
+
+using System.IO;
 
 namespace Source;
 
@@ -10,11 +11,14 @@ public class TransactionSourceFile : ITransactionSource<int, string>
     private string? currentLine;
     private StreamReader reader;
 
+    public bool CheckEnd { get; private set; }
+
     public string FileName
     {
         get { return fileName; }
         set
         {
+            CheckEnd = false;
             fileName = value;
             reader = new(fileName);
         }
@@ -26,6 +30,8 @@ public class TransactionSourceFile : ITransactionSource<int, string>
     public TransactionSourceFile(string _fileName, string separator, string nullValue)
     {
         currentLine = null;
+
+        CheckEnd = false;
         FileName = _fileName;
         Separator = separator;
         NullValue = nullValue;
@@ -34,7 +40,7 @@ public class TransactionSourceFile : ITransactionSource<int, string>
     public ITransaction<int, string> GetTransaction()
     {
         ITransaction<int, string> transaction = new Transaction<int, string>();
-        if (currentLine != null)
+        if (!CheckEnd && currentLine != null)
         {
             string[] values = currentLine.Split(Separator);
             for (int i = 0; i < values.Length; i++)
@@ -49,21 +55,20 @@ public class TransactionSourceFile : ITransactionSource<int, string>
         return transaction;
     }
 
-    public bool Move()
+    public void Move()
     {
         string? buffer = reader.ReadLine();
         if (buffer == null)
         {
-            return false;
+            CheckEnd = true;
         }
 
         currentLine = buffer;
-
-        return true;
     }
 
     public void Restart()
     {
+        CheckEnd = false;
         currentLine = null;
         reader.DiscardBufferedData();
         reader.BaseStream.Seek(0, SeekOrigin.Begin);
