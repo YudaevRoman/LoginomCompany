@@ -10,7 +10,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        TransactionSourceFile transactionSource = new("MushroomSource_BigData.data", ",", "?");
+        TransactionSourceFile transactionSource = new("MushroomSource.data", ",", "?");
         ClusterSourceList clusterSource = new();
 
         Clope<int, string> clope = new(transactionSource, clusterSource);
