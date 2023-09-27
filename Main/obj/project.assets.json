@@ -91,11 +91,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\Main.csproj",
+      "projectUniqueName": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\Main.csproj",
+      "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\Main.csproj",
       "packagesPath": "C:\\Users\\Leere\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\obj\\",
+      "outputPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leere\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,8 +118,8 @@
             "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
               "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj"
             },
-            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
-              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj"
+            "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
+              "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj"
             },
             "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
               "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj"

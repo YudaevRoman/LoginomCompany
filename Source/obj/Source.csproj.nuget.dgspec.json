@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {}
+    "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {}
   },
   "projects": {
     "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
@@ -63,14 +63,14 @@
         }
       }
     },
-    "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
+    "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj",
+        "projectUniqueName": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj",
         "projectName": "Source",
-        "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj",
+        "projectPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj",
         "packagesPath": "C:\\Users\\Leere\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\obj\\",
+        "outputPath": "C:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leere\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,20 +10,32 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        TransactionSourceFile transactionSource = new("MushroomSource.data", ",", "?");
+        TransactionSourceFile transactionSource = new("MushroomSource_BigData.data", ",", "?");
         ClusterSourceList clusterSource = new();
 
         Clope<int, string> clope = new(transactionSource, clusterSource);
 
         List<ICluster<int, string>> clusters = clope.Execution(2.6);
 
-        Show(clusters);
+        StringBuilder buffer = new();
+        ShowClope(clope, buffer);
+        ShowClusters(clusters, buffer);
+
+        Console.WriteLine(buffer);
+        Console.ReadKey();
     }
 
-    private static void Show(List<ICluster<int, string>> clusters)
+    private static void ShowClope(Clope<int, string> clope, StringBuilder buffer)
+    {
+        buffer.Append("\n\nAlgorithm time: ");
+        buffer.Append(clope.Timer.Elapsed);
+        buffer.Append("\nIteration counter: ");
+        buffer.Append(clope.IterationCounter);
+    }
+
+    private static void ShowClusters(List<ICluster<int, string>> clusters, StringBuilder buffer)
     {
         int i = 1;
-        StringBuilder buffer = new();
         IAttribute<int, string> edibility = new Attribute<int, string>(0, "e");
         foreach (ICluster<int, string> cluster in clusters)
         {
@@ -44,8 +56,5 @@ internal class Program
                 buffer.Append(cluster.Occ[edibility]);
             }
         }
-
-        Console.WriteLine(buffer);
-        Console.Read();
     }
 }

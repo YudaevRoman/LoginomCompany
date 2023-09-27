@@ -2,12 +2,16 @@
 using Cluster;
 using Transaction;
 
+using System.Diagnostics;
 using System.Collections.Generic;
 
 namespace Clope;
 
 public class Clope<K, V> : IClope<K, V>
 {
+    public int IterationCounter { get; private set; }
+    public Stopwatch Timer { get; private set; }
+
     public ITransactionSource<K, V> TransactionSource { get; set; }
     public IClusterSource<K, V> ClusterSource { get; set; }
 
@@ -15,6 +19,7 @@ public class Clope<K, V> : IClope<K, V>
     {
         TransactionSource = transactionSource;
         ClusterSource = clusterSource;
+        Timer = new Stopwatch();
     }
 
     public List<ICluster<K, V>> Execution(double r)
@@ -22,10 +27,14 @@ public class Clope<K, V> : IClope<K, V>
         List<ICluster<K, V>> clusters = new();
         clusters.Add(new Cluster<K, V>());
 
+        Timer.Reset();
+
+        Timer.Start();
         Execution_StepOne(clusters, r);
         Execution_StepTwo(clusters, r);
 
         clusters.RemoveAll(cluster => cluster.N == 0);
+        Timer.Stop();
 
         return clusters;
     }
@@ -42,7 +51,6 @@ public class Clope<K, V> : IClope<K, V>
         TransactionSource.Move();
         while (!TransactionSource.CheckEnd)
         {
-
             transaction = TransactionSource.GetTransaction();
             profitIndex = Profit(clusters, transaction, r);
             clusters[profitIndex].Add(transaction);
@@ -63,8 +71,11 @@ public class Clope<K, V> : IClope<K, V>
         int profitIndex;
         bool moved;
 
+        IterationCounter = 0;
         do
         {
+
+            IterationCounter++;
             moved = false;
 
             ClusterSource.Restart();

@@ -59,13 +59,11 @@ public class TransactionSourceFile : ITransactionSource<int, string>
 
     public void Move()
     {
-        string? buffer = reader.ReadLine();
-        if (buffer == null)
+        currentLine = reader.ReadLine();
+        if (currentLine == null)
         {
             CheckEnd = true;
         }
-
-        currentLine = buffer;
     }
 
     public void Restart()
