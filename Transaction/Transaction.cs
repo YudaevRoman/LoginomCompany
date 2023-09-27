@@ -1,8 +1,8 @@
 ﻿namespace Transaction;
 
-public class Transaction : ITransaction<int, string>
+public class Transaction<K, V> : ITransaction<K, V>
 {
-    public List<IAttribute<int, string>> Attributes { get; }
+    public List<IAttribute<K, V>> Attributes { get; }
     public int AttributeCount
     {
         get { return Attributes.Count; }
@@ -17,11 +17,11 @@ public class Transaction : ITransaction<int, string>
         Attributes = new();
     }
 
-    public void AttributeAdd(IAttribute<int, string> attribute)
+    public void AttributeAdd(IAttribute<K, V> attribute)
     {
         Attributes.Add(attribute);
     }
-    public void AttributeRemove(IAttribute<int, string> attribute)
+    public void AttributeRemove(IAttribute<K, V> attribute)
     {
         Attributes.Remove(attribute);
     }

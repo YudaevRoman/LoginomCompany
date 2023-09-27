@@ -1,11 +1,11 @@
 ﻿namespace Transaction;
 
-public class Attribute : IAttribute<int, string>
+public class Attribute<K, V> : IAttribute<K, V>
 {
-    public int Key { get; set; }
-    public string Value { get; set; }
+    public K Key { get; set; }
+    public V Value { get; set; }
 
-    Attribute(int key, string value)
+    Attribute(K key, V value)
     {
         Key = key;
         Value = value;
