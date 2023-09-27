@@ -27,6 +27,189 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
+                "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj"
+              },
+              "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
+                "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj",
+        "projectName": "Cluster",
+        "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj",
+        "packagesPath": "C:\\Users\\Leere\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leere\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
+                "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj",
+        "projectName": "Source",
+        "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj",
+        "packagesPath": "C:\\Users\\Leere\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leere\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
+                "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj"
+              },
+              "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
+                "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj",
+        "projectName": "Transaction",
+        "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\Transaction.csproj",
+        "packagesPath": "C:\\Users\\Leere\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Transaction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leere\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },

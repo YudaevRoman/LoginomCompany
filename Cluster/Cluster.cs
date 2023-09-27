@@ -12,7 +12,7 @@ public class Cluster<K, V> : ICluster<K, V>
     public double S { get; private set; }
     public double W { get { return Occ.Count; } }
 
-    Cluster()
+    public Cluster()
     {
         N = 0;
         S = 0;

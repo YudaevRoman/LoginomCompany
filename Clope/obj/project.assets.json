@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Cluster/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Transaction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cluster.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cluster.dll": {}
+        }
+      },
+      "Source/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Cluster": "1.0.0",
+          "Transaction": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Source.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Source.dll": {}
+        }
+      },
+      "Transaction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Transaction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Transaction.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Cluster/1.0.0": {
+      "type": "project",
+      "path": "../Cluster/Cluster.csproj",
+      "msbuildProject": "../Cluster/Cluster.csproj"
+    },
+    "Source/1.0.0": {
+      "type": "project",
+      "path": "../Source/Source.csproj",
+      "msbuildProject": "../Source/Source.csproj"
+    },
+    "Transaction/1.0.0": {
+      "type": "project",
+      "path": "../Transaction/Transaction.csproj",
+      "msbuildProject": "../Transaction/Transaction.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Cluster >= 1.0.0",
+      "Source >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Leere\\.nuget\\packages\\": {}
@@ -33,7 +90,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj": {
+              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Cluster\\Cluster.csproj"
+            },
+            "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj": {
+              "projectPath": "c:\\Users\\Leere\\Desktop\\LoginomCompany\\Source\\Source.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -5,6 +5,6 @@ namespace Source;
 
 public interface IClusterSource<K, V> : ISource
 {
-    ICluster<K, V> GetCluster();
-    void SetCluster(ICluster<K, V> cluster);
+    int GetClusterIndex();
+    void SetClusterIndex(int clusterIndex);
 }
