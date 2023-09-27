@@ -8,11 +8,11 @@ public class Transaction<K, V> : ITransaction<K, V>
         get { return Attributes.Count; }
     }
 
-    Transaction(int capacity)
+    public Transaction(int capacity)
     {
         Attributes = new(capacity);
     }
-    Transaction()
+    public Transaction()
     {
         Attributes = new();
     }

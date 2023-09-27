@@ -9,3 +9,9 @@ c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.dll
 c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\refint\Source.dll
 c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.pdb
 c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\ref\Source.dll
+c:\Users\Leere\Desktop\LoginomCompany\Source\bin\Debug\net7.0\Cluster.dll
+c:\Users\Leere\Desktop\LoginomCompany\Source\bin\Debug\net7.0\Transaction.dll
+c:\Users\Leere\Desktop\LoginomCompany\Source\bin\Debug\net7.0\Transaction.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Source\bin\Debug\net7.0\Cluster.pdb
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.csproj.AssemblyReference.cache
+c:\Users\Leere\Desktop\LoginomCompany\Source\obj\Debug\net7.0\Source.csproj.CopyComplete

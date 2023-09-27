@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Source/1.0.0": {
+        "dependencies": {
+          "Cluster": "1.0.0",
+          "Transaction": "1.0.0"
+        },
         "runtime": {
           "Source.dll": {}
+        }
+      },
+      "Cluster/1.0.0": {
+        "dependencies": {
+          "Transaction": "1.0.0"
+        },
+        "runtime": {
+          "Cluster.dll": {}
+        }
+      },
+      "Transaction/1.0.0": {
+        "runtime": {
+          "Transaction.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Source/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cluster/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Transaction/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

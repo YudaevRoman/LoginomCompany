@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Cluster/1.0.0": {
+        "dependencies": {
+          "Transaction": "1.0.0"
+        },
         "runtime": {
           "Cluster.dll": {}
+        }
+      },
+      "Transaction/1.0.0": {
+        "runtime": {
+          "Transaction.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Cluster/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Transaction/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
